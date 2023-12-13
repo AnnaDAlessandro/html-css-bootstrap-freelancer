@@ -7,7 +7,8 @@ header{
     padding: 20px;
 }
 #avatar,
-#about{
+#about,
+form button{
     background-color: #1abc9c;
 }
 #avatar svg,
@@ -21,7 +22,8 @@ header{
     background-color: white;
     opacity: 1;
 }
-#portfolio hr{
+#portfolio hr,
+#contact-me hr{
     width:10%;
     border: 3px solid rgb(0, 0, 0);
     background-color: black;
@@ -44,4 +46,9 @@ header div:last-child svg{
 #text button{
     background-color: transparent;
     margin-top: 20px;
+}
+form input,
+form textarea{
+    border: 0;
+    border-bottom: 1px solid gray;
 }
